@@ -1,3 +1,5 @@
+DROP DATABASE employees_db;
+
 CREATE DATABASE employees_db;
 
 USE employees_db;
@@ -8,7 +10,7 @@ CREATE TABLE department (
 
 );
 
-CREATE TABLE role (
+CREATE TABLE roles (
   id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
   job_title VARCHAR(40) NOT NULL,
   salary DECIMAL NOT NULL,
